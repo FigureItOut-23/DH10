@@ -61,14 +61,14 @@ const HeroContent = () => {
           Get Started
         </motion.a>
 
-        <motion.a
+        {/* <motion.a
           variants={slideInFromRight(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           href="/about"
           target="_blank"
         >
           More Info
-        </motion.a>
+        </motion.a> */}
       </div>
 
       </div>
