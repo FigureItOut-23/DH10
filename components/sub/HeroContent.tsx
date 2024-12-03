@@ -23,9 +23,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[15px]">
-            DeltaHacks X
-          </h1>
+          <h1 className="Welcome-text text-[15px]">DeltaHacks X</h1>
         </motion.div>
 
         <motion.div
@@ -46,22 +44,23 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Hi! I'm Pepper and I am here to be your friend whenever you want!
+          Hi! I&apos;m Pepper and I am here to be your friend whenever you want!
           <br></br>
-          Click <span className="font-bold">Get Started</span> if you want to chat!
+          Click <span className="font-bold">Get Started</span> if you want to
+          chat!
         </motion.p>
 
-      <div className="flex space-x-10">
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="/home"
-          target="_blank"
-        >
-          Get Started
-        </motion.a>
+        <div className="flex space-x-10">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            href="/home"
+            target="_blank"
+          >
+            Get Started
+          </motion.a>
 
-        {/* <motion.a
+          {/* <motion.a
           variants={slideInFromRight(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           href="/about"
@@ -69,8 +68,7 @@ const HeroContent = () => {
         >
           More Info
         </motion.a> */}
-      </div>
-
+        </div>
       </div>
 
       <motion.div
